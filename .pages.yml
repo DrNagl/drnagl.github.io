@@ -1,1 +1,5 @@
 media: images
+pages:
+  - path: index.html
+    name: Home
+    visibility: public
