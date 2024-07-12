@@ -1,8 +1,8 @@
 media: images
 content:
-  - name: home
-    label: Home
-    path: index.html
+  - name: siteSettings
+    label: Site Settings
+    path: _data/settings.yml
     type: file
     fields:
       - name: is_closed
