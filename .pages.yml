@@ -1,7 +1,9 @@
 media: images
-pages:
-  - path: index.html
-    name: Home
+content:
+  - name: home
+    label: Home
+    path: index.html
+    type: file
     fields:
       - name: is_closed
         label: Is Closed
