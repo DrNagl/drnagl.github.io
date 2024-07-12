@@ -24,7 +24,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
   <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', function() {
-      fetch('/_data/settings.yml')
+      fetch('/data/settings.yml')
         .then(response => response.text())
         .then(text => jsyaml.load(text))
         .then(data => {
