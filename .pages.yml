@@ -5,7 +5,7 @@ content:
     path: data/settings.yml
     type: file
     fields:
-      - name: is_closed
-        label: Is Closed
-        type: boolean
-        default: false
+      - name: closed_message
+        label: Closed Message
+        type: string
+        default: "Sorry we are closed!"
