@@ -2,4 +2,8 @@ media: images
 pages:
   - path: index.html
     name: Home
-    visibility: public
+    fields:
+      - name: is_closed
+        label: Is Closed
+        type: boolean
+        default: false
