@@ -21,6 +21,7 @@
   <div class="text-block" id="closed-message" style="display: none;">Sorry we are closed!</div>
   <div class="text-block footer">Impressum    Datenschutz    Dr. Nagl und Dr. Nagl</div>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=668fa13cbcda2a9cf4aff964" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
   <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', function() {
       fetch('/_data/settings.yml')
@@ -34,7 +35,8 @@
           } else {
             closedMessageElement.style.display = 'none';
           }
-        });
+        })
+        .catch(error => console.error('Error loading settings:', error));
     });
   </script>
 </body>
