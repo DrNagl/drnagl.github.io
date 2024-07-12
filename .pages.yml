@@ -7,5 +7,5 @@ content:
     fields:
       - name: closed_message
         label: Closed Message
-        type: string
+        type: text
         default: "Sorry we are closed!"
