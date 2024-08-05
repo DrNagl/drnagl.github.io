@@ -4,34 +4,141 @@
 }
 
 .text-block {
+  color: #000;
+  letter-spacing: .02em;
+  text-indent: 0;
   max-width: 400px;
   margin-top: 0;
-  margin-left: 10px;
-  font-family: Times New Roman, TimesNewRoman, Times, Baskerville, Georgia, serif;
-  font-size: 13px;
-  line-height: 15px;
+  margin-left: 7px;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 13px;
   position: relative;
 }
 
 .text-block.footer {
   position: absolute;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: auto 0% 0%;
+}
+
+.text-block.closed-message {
+  text-align: justify;
+  letter-spacing: .3em;
+  text-transform: none;
+  max-width: 500px;
+  margin-bottom: 5px;
+  font-family: Times New Roman, TimesNewRoman, Times, Baskerville, Georgia, serif;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.text-block.txt-date-opening {
+  margin-top: 0;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.text-block.service-text {
+  margin-top: 65px;
+  margin-bottom: 65px;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.text-block.impressum-txt {
+  max-width: 420px;
+  margin-top: 0;
+  font-size: 8px;
+  line-height: 10px;
+  text-decoration: none;
+}
+
+.text-block.impressum-txt.impressum-txt-title {
+  text-decoration: underline;
+}
+
+.text-block.header-txt {
+  margin-top: 5px;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.text-block.contact-txt {
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.text-block.opening-txt {
+  line-height: 14px;
 }
 
 .image {
-  margin-top: 25px;
-  margin-bottom: 6px;
-  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  margin-left: 3px;
   padding-bottom: 0;
+  display: block;
 }
 
 .title {
+  color: #000;
   margin-bottom: 89px;
   margin-left: 33px;
   font-family: Times New Roman, TimesNewRoman, Times, Baskerville, Georgia, serif;
   font-size: 200px;
   line-height: 250px;
 }
+
+.drdr-logo {
+  margin-top: 85px;
+  margin-bottom: 60px;
+  margin-left: 80px;
+}
+
+.div-block, .div-block-2 {
+  display: flex;
+}
+
+.openings-rows {
+  margin-bottom: 0;
+  margin-left: 0;
+  display: flex;
+}
+
+.mail {
+  color: #000;
+}
+
+.tel-numb {
+  color: #000;
+  text-decoration: none;
+}
+
+.body {
+  text-decoration: none;
+}
+
+.link-3 {
+  color: #000;
+}
+
+.link-4, .link-5, .link-6 {
+  color: #000;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 479px) {
+  .text-block, .text-block.closed-message {
+    margin-left: 6px;
+  }
+
+  .text-block.contact-txt {
+    letter-spacing: .01em;
+  }
+
+  .drdr-logo {
+    max-width: 80%;
+    margin-left: 35px;
+  }
+}
+
