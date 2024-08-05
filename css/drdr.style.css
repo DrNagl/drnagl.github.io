@@ -22,7 +22,7 @@
 }
 
 .text-block.closed-message {
-  text-align: justify;
+  text-align: left;
   letter-spacing: 0;
   text-transform: none;
   max-width: 500px;
