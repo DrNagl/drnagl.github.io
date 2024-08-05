@@ -23,13 +23,14 @@
 
 .text-block.closed-message {
   text-align: justify;
-  letter-spacing: .3em;
+  letter-spacing: 0;
   text-transform: none;
   max-width: 500px;
-  margin-bottom: 5px;
+  margin-top: 137px;
+  margin-bottom: 115px;
   font-family: Times New Roman, TimesNewRoman, Times, Baskerville, Georgia, serif;
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 30px;
+  line-height: 38px;
 }
 
 .text-block.txt-date-opening {
@@ -39,33 +40,34 @@
 }
 
 .text-block.service-text {
-  margin-top: 65px;
-  margin-bottom: 65px;
+  margin-top: 115px;
+  margin-bottom: 115px;
   font-size: 14px;
-  line-height: 15px;
+  line-height: 18px;
 }
 
 .text-block.impressum-txt {
   max-width: 420px;
-  margin-top: 0;
+  margin-top: -5px;
   font-size: 8px;
   line-height: 10px;
   text-decoration: none;
 }
 
 .text-block.impressum-txt.impressum-txt-title {
+  margin-top: 123px;
   text-decoration: underline;
 }
 
 .text-block.header-txt {
   margin-top: 5px;
-  font-size: 10px;
-  line-height: 12px;
+  font-size: 13px;
+  line-height: 16px;
 }
 
 .text-block.contact-txt {
   font-size: 14px;
-  line-height: 15px;
+  line-height: 18px;
 }
 
 .text-block.opening-txt {
