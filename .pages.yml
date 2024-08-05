@@ -7,5 +7,6 @@ content:
     fields:
       - name: closed_message
         label: Closed Message
-        type: text
-        default: "Von 29.07 bis 16.08 geschlossen"
+        type: textarea
+        language: html
+        default: "Anm. (Ordination) <br> von 29.07 bis 16.08 geschlossen."
