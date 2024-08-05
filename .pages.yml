@@ -8,4 +8,4 @@ content:
       - name: closed_message
         label: Closed Message
         type: text
-        default: "Sorry we are closed!"
+        default: "Von 29.07 bis 16.08 geschlossen"
