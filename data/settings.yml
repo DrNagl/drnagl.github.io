@@ -1,4 +1,19 @@
-closed_message: |-
-  Sommerurlaub 2025:<br>
-  28.07.2025 bis<br>
-  15.08.2025<br>
+closed_message: >
+  <div style="background-color: black; color: white; font-size: 20px;
+  text-align: center; padding: 20px;">
+    <div style="animation: blinken 1s infinite;">
+      Sommerurlaub 2025:<br>
+      28.07.2025 bis<br>
+      15.08.2025<br>
+    </div>
+  </div>
+
+
+  <style>
+
+  @keyframes blinken {
+    0%, 100% { color: white; }
+    50% { color: black; }
+  }
+
+  </style>
